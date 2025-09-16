@@ -12,8 +12,26 @@ body {
 
 .Title {
   font-family: 'Poppins', sans-serif;
+  font-size: 100px;
   text-align: center;
-  background-color: #5305b0;
+  background: linear-gradient(135deg, #755697ff 0%, rgb(0, 0, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.d-flex {
+  font-size: 20px;
+  min-height: 100px;
+  background: linear-gradient(135deg, #755697ff 0%, #617aa5ff 100%);
+}
+
+.mb-0 {
+  text-decoration-style: dashed;
+}
+
+.span-underline {
+    text-decoration: underline;
 }
 
 .wave {

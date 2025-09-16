@@ -5,6 +5,15 @@ function App() {
   return (
     <div className="App">
       <h1 className="Title">EduQuest</h1>
+      <div className="d-flex align-items-center justify-content-center">
+        <p className="mb-0">
+          &#8220;
+          Education with a quest to&nbsp;
+          <span className="span-underline">complete</span>
+          &nbsp;&#8221;
+        </p>
+      </div>
+      
       <svg className="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <defs>
           <linearGradient id="my-gradient" x1="0%" y1="0%" x2="100%" y2="0%">

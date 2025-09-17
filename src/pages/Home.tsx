@@ -1,13 +1,16 @@
 import "../styles/Home.css"
-import GenerateCard from "../componenets/Cards";"../componenets/Cards"
+import GenerateCard from "../componenets/Cards";
+import Navbar from "../componenets/Navbar";
 
-
+import cardImg from "../assets/coding-image.jpeg";
 
 function Home() {
+
   return (
     <div className="App">
+      <Navbar />
       <h1 className="Title">EduQuest</h1>
-      <div className="d-flex align-items-center justify-content-center">
+      <div id="motto-fill" className="d-flex align-items-center justify-content-center">
         <p className="mb-0">
           &#8220;
           Education with a quest to&nbsp;
@@ -28,10 +31,31 @@ function Home() {
         </path>
       </svg>
 
+      <div className="d-flex flex-row mb-3 justify-content-center">
+        <GenerateCard
+          image={ cardImg }
+          title="Why choose us?"
+          text="At EduQuest, we make learning engaging and effective by blending education with gamification."
+        />
 
-      { GenerateCard("Heading 1", "Heading 2") }
+        <GenerateCard
+          image={ cardImg }
+          title="Who can use EduQuest?"
+          text="Our platform is beginner-friendly and designed for students, educators, and lifelong learners who want to make learning fun and engaging."
+        />
+
+        <GenerateCard
+          image={ cardImg }
+          title="How does gamification help learning?"
+          text="Gamification boosts motivation by rewarding progress, breaking down learning into quests, and turning complex topics into manageable, fun challenges."
+        />
+
+
+      </div>
+      
+      
     </div>
   );
-}
+};
 
 export default Home;

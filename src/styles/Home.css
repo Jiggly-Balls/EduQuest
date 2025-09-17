@@ -21,8 +21,9 @@ body {
 }
 
 .d-flex {
+  padding-top: 25px;
   font-size: 20px;
-  min-height: 100px;
+  min-height: 30px;
   background: linear-gradient(135deg, #755697ff 0%, #617aa5ff 100%);
 }
 
@@ -36,4 +37,9 @@ body {
 
 .wave {
   background: linear-gradient(135deg, #c490fc 0%, #94b7f5 100%);
+}
+
+.card {
+  width: 18rem;
+  background: linear-gradient(135deg, #755697ff 0%, #617aa5ff 100%);
 }

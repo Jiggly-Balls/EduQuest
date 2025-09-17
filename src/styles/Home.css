@@ -20,10 +20,11 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.d-flex {
+#motto-fill {
   padding-top: 25px;
   font-size: 20px;
   min-height: 30px;
+  text-decoration: bold;
   background: linear-gradient(135deg, #755697ff 0%, #617aa5ff 100%);
 }
 
@@ -40,6 +41,7 @@ body {
 }
 
 .card {
+  margin-left: 10px;
   width: 18rem;
   background: linear-gradient(135deg, #755697ff 0%, #617aa5ff 100%);
 }

@@ -63,6 +63,7 @@ function MainLayout() {
         buttonBgColor="#000000ff"
         buttonTextColor="#fff"
         ease="power3.out"
+        buttonLink="#/courses"
       />
       <div id="nav-margin" />
       <main>

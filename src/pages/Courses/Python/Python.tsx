@@ -29,7 +29,7 @@ function Python() {
         <SplitText
           text="Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. It supports multiple programming paradigms, including object-oriented, functional, and procedural styles. Python's extensive standard library and large ecosystem of third-party packages make it widely used in fields like web development, data science, artificial intelligence, automation, and scientific computing. Its beginner-friendly syntax and strong community support have made it one of the most popular programming languages in the world."
           className="text-2xl font-semibold text-center justify-content-center"
-          delay={30}
+          delay={15}
           duration={0.1}
           ease="power3.out"
           splitType="chars"

@@ -27,6 +27,7 @@ export interface CardNavProps {
   menuColor?: string;
   buttonBgColor?: string;
   buttonTextColor?: string;
+  buttonLink: string;
 }
 
 const CardNav: React.FC<CardNavProps> = ({
@@ -39,6 +40,7 @@ const CardNav: React.FC<CardNavProps> = ({
   menuColor,
   buttonBgColor,
   buttonTextColor,
+  buttonLink,
 }) => {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
@@ -185,6 +187,7 @@ const CardNav: React.FC<CardNavProps> = ({
           </div>
 
           <button
+            onClick={() => (window.location.href = buttonLink)}
             type="button"
             className="card-nav-cta-button"
             style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}

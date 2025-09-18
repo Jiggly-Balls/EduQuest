@@ -1,11 +1,17 @@
 // import { useState } from 'react'
-import Home from "./pages/Home";
+import { HashRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./Pages/Home";
+import Courses from "./Pages/Courses/Courses";
 
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/courses" element={<Courses />} />
+      </Routes>
+    </HashRouter>
   );
 }
 

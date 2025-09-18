@@ -42,3 +42,6 @@ body {
   width: 18rem;
   background: linear-gradient(135deg, #755697ff 0%, #617aa5ff 100%);
 }
+#start-today {
+  margin-top: 50px;
+}

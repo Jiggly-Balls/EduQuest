@@ -2,8 +2,8 @@ import "../Styles/Home.css";
 
 import GenerateCard from "../Componenets/Cards";
 
-import SplitText from "../layouts/SplitText";
-import CardNav from "../layouts/CardNav";
+import SplitText from "../Componenets/SplitText";
+import CardNav from "../Componenets/CardNav";
 
 import cardImg from "../assets/coding-image.jpeg";
 import logo from "../assets/FTF.png";
@@ -61,7 +61,7 @@ function Home() {
         <SplitText
           text="EduQuest"
           className="text-2xl font-semibold text-center justify-content-center"
-          delay={150}
+          delay={125}
           duration={0.6}
           ease="power3.out"
           splitType="chars"

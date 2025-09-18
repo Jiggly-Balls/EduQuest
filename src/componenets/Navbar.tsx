@@ -8,12 +8,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
-        <img 
-          src={ logo }
-          width="50"
-          height="50"
-          className="d-inline-block align-top"
-        />{" "}
+
       </a>
 
       <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">

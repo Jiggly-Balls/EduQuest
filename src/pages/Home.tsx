@@ -4,12 +4,31 @@ import Navbar from "../componenets/Navbar";
 
 import cardImg from "../assets/coding-image.jpeg";
 
+import SplitText from "../componenets/SplitText";
+
+
+
 function Home() {
 
   return (
     <div className="App">
       <Navbar />
-      <h1 className="Title">EduQuest</h1>
+      <h1 className="Title justify-content-center">
+        <SplitText
+          text="EduQuest"
+          className="text-2xl font-semibold text-center justify-content-center"
+          delay={100}
+          duration={0.6}
+          ease="power3.out"
+          splitType="chars"
+          from={{ opacity: 0, y: 40 }}
+          to={{ opacity: 1, y: 0 }}
+          threshold={0.1}
+          rootMargin="-100px"
+          textAlign="center"
+        />
+      </h1>
+
       <div id="motto-fill" className="d-flex align-items-center justify-content-center">
         <p className="mb-0">
           &#8220;

@@ -1,7 +1,8 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { GoArrowUpRight } from "react-icons/go";
-import "../Styles/CardNav.css";
+
+import "../Styles/Components/CardNav.css";
 
 type CardNavLink = {
   label: string;

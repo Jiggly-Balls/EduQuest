@@ -1,4 +1,4 @@
-import "../Styles/Home.css";
+import "../Styles/Pages/Home.css";
 
 import GenerateCard from "../Componenets/Cards";
 import SplitText from "../Componenets/SplitText";

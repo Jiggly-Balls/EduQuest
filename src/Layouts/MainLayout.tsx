@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import CardNav from "../Componenets/CardNav";
 import logo from "../assets/FTF.png";
 
-import "../Styles/MainLayout.css";
+import "../Styles/Layouts/MainLayout.css";
 
 const items = [
   {

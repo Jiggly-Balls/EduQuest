@@ -1,5 +1,5 @@
 function Courses() {
-  return <h1>This is the Courses Page</h1>;
+  return <div></div>;
 }
 
 export default Courses;

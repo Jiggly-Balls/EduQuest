@@ -12,7 +12,7 @@ function Home() {
   const items = [
     {
       label: "About",
-      bgColor: "#755697ff",
+      bgColor: "#41265eff",
       textColor: "#fff",
       links: [
         {
@@ -29,7 +29,7 @@ function Home() {
     },
     {
       label: "Projects",
-      bgColor: "#755697ff",
+      bgColor: "#41265eff",
       textColor: "#fff",
       links: [
         {
@@ -66,9 +66,9 @@ function Home() {
         logo={logo}
         logoAlt="Company Logo"
         items={items}
-        baseColor="#fff"
-        menuColor="#000"
-        buttonBgColor="#111"
+        baseColor="#755697ff"
+        menuColor="#d0a4ffff"
+        buttonBgColor="#000000ff"
         buttonTextColor="#fff"
         ease="power3.out"
       />
@@ -76,7 +76,7 @@ function Home() {
         <SplitText
           text="EduQuest"
           className="text-2xl font-semibold text-center justify-content-center"
-          delay={100}
+          delay={150}
           duration={0.6}
           ease="power3.out"
           splitType="chars"

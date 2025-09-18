@@ -75,6 +75,16 @@ function Home() {
           text="Gamification boosts motivation by rewarding progress, breaking down learning into quests, and turning complex topics into manageable, fun challenges."
         />
       </div>
+      <div className="d-flex flex-row mb-3 justify-content-center">
+        <a
+          id="start-today"
+          href="#/courses/"
+          type="button"
+          className="btn btn-primary"
+        >
+          Start Learning Today!
+        </a>
+      </div>
     </div>
   );
 }

@@ -1,8 +1,11 @@
-import "../Styles/Pages/Home.css";
-
 import GenerateCard from "../Componenets/Cards";
 import SplitText from "../Componenets/SplitText";
-import cardImg from "../assets/coding-image.jpeg";
+
+import placeHolder1 from "../assets/placeholder-1.jpg";
+import placeHolder2 from "../assets/placeholder-2.jpg";
+import placeHolder3 from "../assets/placeholder-3.jpg";
+
+import "../Styles/Pages/Home.css";
 
 function Home() {
   return (
@@ -55,19 +58,19 @@ function Home() {
 
       <div className="d-flex flex-row mb-3 justify-content-center">
         <GenerateCard
-          image={cardImg}
+          image={placeHolder1}
           title="Why choose us?"
           text="At EduQuest, we make learning engaging and effective by blending education with gamification."
         />
 
         <GenerateCard
-          image={cardImg}
+          image={placeHolder2}
           title="Who can use EduQuest?"
           text="Our platform is beginner-friendly and designed for students, educators, and lifelong learners who want to make learning fun and engaging."
         />
 
         <GenerateCard
-          image={cardImg}
+          image={placeHolder3}
           title="How does gamification help learning?"
           text="Gamification boosts motivation by rewarding progress, breaking down learning into quests, and turning complex topics into manageable, fun challenges."
         />

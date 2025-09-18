@@ -18,7 +18,7 @@ const items = [
       },
       {
         label: "Our Mission",
-        href: "https://google.com",
+        href: "#/our-mission",
         ariaLabel: "About us",
       },
     ],

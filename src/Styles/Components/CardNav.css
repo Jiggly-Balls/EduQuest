@@ -5,6 +5,7 @@
   transform: translateX(-50%);
   width: 90%;
   max-width: 800px;
+  max-height: 100px;
   z-index: 99;
   box-sizing: border-box;
 }

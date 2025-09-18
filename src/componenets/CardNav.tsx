@@ -69,7 +69,7 @@ const CardNav: React.FC<CardNavProps> = ({
         contentEl.offsetHeight;
 
         const topBar = 60;
-        const padding = 16;
+        const padding = 4;
         const contentHeight = contentEl.scrollHeight;
 
         contentEl.style.visibility = wasVisible;
@@ -80,7 +80,7 @@ const CardNav: React.FC<CardNavProps> = ({
         return topBar + contentHeight + padding;
       }
     }
-    return 260;
+    return 200;
   };
 
   const createTimeline = () => {

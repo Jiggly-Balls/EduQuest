@@ -1,29 +1,32 @@
 import { Link } from "react-router-dom";
-import "../styles/Navbar.css"
+import "../styles/Navbar.css";
 
-import logo from "../assets/FTF.png"
-
+import logo from "../assets/FTF.png";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="#"></a>
 
-      </a>
-
-      <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <div
+        className="collapse navbar-collapse justify-content-center"
+        id="navbarSupportedContent"
+      >
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <a className="nav-link" href="#">Home</a>
+            <a className="nav-link" href="#">
+              Home
+            </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Courses</a>
+            <a className="nav-link" href="#">
+              Courses
+            </a>
           </li>
         </ul>
       </div>
     </nav>
   );
-};
-
+}
 
 export default Navbar;

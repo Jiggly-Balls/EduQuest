@@ -1,62 +1,12 @@
 import "../Styles/Home.css";
 
 import GenerateCard from "../Componenets/Cards";
-
 import SplitText from "../Componenets/SplitText";
-import CardNav from "../Componenets/CardNav";
-
 import cardImg from "../assets/coding-image.jpeg";
-import logo from "../assets/FTF.png";
 
 function Home() {
-  const items = [
-    {
-      label: "About",
-      bgColor: "#41265eff",
-      textColor: "#fff",
-      links: [
-        {
-          label: "Our Mission",
-          href: "https://google.com",
-          ariaLabel: "About Company",
-        },
-      ],
-    },
-    {
-      label: "Courses",
-      bgColor: "#41265eff",
-      textColor: "#fff",
-      links: [
-        {
-          label: "Python",
-          href: "https://google.com",
-          ariaLabel: "Featured Projects",
-        },
-      ],
-    },
-    {
-      label: "Contact",
-      bgColor: "#41265eff",
-      textColor: "#fff",
-      links: [
-        { label: "Email", href: "https://google.com", ariaLabel: "Email us" },
-        { label: "Twitter", href: "https://google.com", ariaLabel: "Twitter" },
-      ],
-    },
-  ];
-
   return (
     <div className="App">
-      <CardNav
-        logo={logo}
-        logoAlt="Company Logo"
-        items={items}
-        baseColor="#755697ff"
-        menuColor="#d0a4ffff"
-        buttonBgColor="#000000ff"
-        buttonTextColor="#fff"
-        ease="power3.out"
-      />
       <h1 className="Title justify-content-center">
         <SplitText
           text="EduQuest"

@@ -1,6 +1,6 @@
-import "../styles/Home.css";
+import "../Styles/Home.css";
 
-import GenerateCard from "../componenets/Cards";
+import GenerateCard from "../Componenets/Cards";
 
 import SplitText from "../layouts/SplitText";
 import CardNav from "../layouts/CardNav";
@@ -16,31 +16,21 @@ function Home() {
       textColor: "#fff",
       links: [
         {
-          label: "Company",
+          label: "Our Mission",
           href: "https://google.com",
           ariaLabel: "About Company",
-        },
-        {
-          label: "Careers",
-          href: "https://google.com",
-          ariaLabel: "About Careers",
         },
       ],
     },
     {
-      label: "Projects",
+      label: "Courses",
       bgColor: "#41265eff",
       textColor: "#fff",
       links: [
         {
-          label: "Featured",
+          label: "Python",
           href: "https://google.com",
           ariaLabel: "Featured Projects",
-        },
-        {
-          label: "Case Studies",
-          href: "https://google.com",
-          ariaLabel: "Project Case Studies",
         },
       ],
     },
@@ -51,11 +41,6 @@ function Home() {
       links: [
         { label: "Email", href: "https://google.com", ariaLabel: "Email us" },
         { label: "Twitter", href: "https://google.com", ariaLabel: "Twitter" },
-        {
-          label: "LinkedIn",
-          href: "https://google.com",
-          ariaLabel: "LinkedIn",
-        },
       ],
     },
   ];

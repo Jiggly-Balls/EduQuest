@@ -1,15 +1,77 @@
 import "../styles/Home.css";
-import GenerateCard from "../componenets/Cards";
-import Navbar from "../componenets/Navbar";
 
-import cardImg from "../assets/coding-image.jpeg";
+import GenerateCard from "../componenets/Cards";
 
 import SplitText from "../layouts/SplitText";
+import CardNav from "../layouts/CardNav";
+
+import cardImg from "../assets/coding-image.jpeg";
+import logo from "../assets/FTF.png";
 
 function Home() {
+  const items = [
+    {
+      label: "About",
+      bgColor: "#755697ff",
+      textColor: "#fff",
+      links: [
+        {
+          label: "Company",
+          href: "https://google.com",
+          ariaLabel: "About Company",
+        },
+        {
+          label: "Careers",
+          href: "https://google.com",
+          ariaLabel: "About Careers",
+        },
+      ],
+    },
+    {
+      label: "Projects",
+      bgColor: "#755697ff",
+      textColor: "#fff",
+      links: [
+        {
+          label: "Featured",
+          href: "https://google.com",
+          ariaLabel: "Featured Projects",
+        },
+        {
+          label: "Case Studies",
+          href: "https://google.com",
+          ariaLabel: "Project Case Studies",
+        },
+      ],
+    },
+    {
+      label: "Contact",
+      bgColor: "#41265eff",
+      textColor: "#fff",
+      links: [
+        { label: "Email", href: "https://google.com", ariaLabel: "Email us" },
+        { label: "Twitter", href: "https://google.com", ariaLabel: "Twitter" },
+        {
+          label: "LinkedIn",
+          href: "https://google.com",
+          ariaLabel: "LinkedIn",
+        },
+      ],
+    },
+  ];
+
   return (
     <div className="App">
-      <Navbar />
+      <CardNav
+        logo={logo}
+        logoAlt="Company Logo"
+        items={items}
+        baseColor="#fff"
+        menuColor="#000"
+        buttonBgColor="#111"
+        buttonTextColor="#fff"
+        ease="power3.out"
+      />
       <h1 className="Title justify-content-center">
         <SplitText
           text="EduQuest"

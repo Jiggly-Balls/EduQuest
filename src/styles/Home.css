@@ -11,7 +11,7 @@ body {
 }
 
 .Title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 100px;
   text-align: center;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 .span-underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .wave {

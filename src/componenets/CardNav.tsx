@@ -94,7 +94,7 @@ const CardNav: React.FC<CardNavProps> = ({
 
     tl.to(navEl, {
       height: calculateHeight,
-      duration: 0.4,
+      duration: 0.3,
       ease,
     });
 
@@ -212,6 +212,7 @@ const CardNav: React.FC<CardNavProps> = ({
                     className="nav-card-link"
                     href={lnk.href}
                     aria-label={lnk.ariaLabel}
+                    onClick={() => toggleMenu()}
                   >
                     <GoArrowUpRight
                       className="nav-card-link-icon"

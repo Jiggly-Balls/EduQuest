@@ -2,6 +2,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/Home";
 import Courses from "./Pages/Courses/Courses";
+import OurMission from "./Pages/OurMission";
 import MainLayout from "./Layouts/MainLayout";
 import Python from "./Pages/Courses/Python/Python";
 import PythonIntroduction from "./Pages/Courses/Python/PythonIntroduction";
@@ -13,6 +14,7 @@ function App() {
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path="/our-mission" element={<OurMission />} />
           <Route path="/courses/python" element={<Python />} />
           <Route
             path="/courses/python/introduction"

@@ -31,6 +31,8 @@ function Courses() {
           image={pythonLogo}
           title="Python Programming"
           text="Learn Python Programming"
+          buttonText="Learn now"
+          buttonLink="#/courses/python"
         />
       </div>
     </div>

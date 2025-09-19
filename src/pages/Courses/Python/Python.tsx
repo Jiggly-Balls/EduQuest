@@ -40,6 +40,38 @@ function Python() {
           textAlign="center"
         />
       </p>
+
+      <table
+        id="table-of-contents"
+        className="table table-dark justify-content-center"
+      >
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Topic Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>
+              <a href="#/courses/python/introduction">Introduction</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>
+              <a href="#/courses/">Variables</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>
+              <a href="#/courses/">Variables</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }

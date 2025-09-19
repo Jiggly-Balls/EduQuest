@@ -6,6 +6,7 @@ import OurMission from "./Pages/OurMission";
 import MainLayout from "./Layouts/MainLayout";
 import Python from "./Pages/Courses/Python/Python";
 import PythonIntroduction from "./Pages/Courses/Python/PythonIntroduction";
+import PythonVariables from "./Pages/Courses/Python/PythonVariables";
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
           <Route
             path="/courses/python/introduction"
             element={<PythonIntroduction />}
+          />
+          <Route
+            path="/courses/python/variables"
+            element={<PythonVariables />}
           />
         </Route>
       </Routes>

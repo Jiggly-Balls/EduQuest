@@ -49,7 +49,7 @@ function PythonIntroduction() {
       <div className="d-flex flex-row mb-3 justify-content-center">
         <a
           id="next-topic"
-          href="#/courses/"
+          href="#/courses/python/variables"
           type="button"
           className="btn btn-primary"
         >

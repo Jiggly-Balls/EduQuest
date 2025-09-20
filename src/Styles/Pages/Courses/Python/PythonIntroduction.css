@@ -1,0 +1,24 @@
+.page-content {
+  font-size: 20px;
+}
+
+.d-flex {
+  margin-top: 30px;
+}
+
+#guido-van-rossum-image {
+  max-height: 250px;
+  max-width: 583px;
+  padding-left: 50px;
+}
+
+#post-para {
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#next-topic {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}

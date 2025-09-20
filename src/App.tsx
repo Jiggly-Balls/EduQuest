@@ -1,5 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 
+import ScrollToTop from "./Utilities/ScrollTop";
+
 import Home from "./Pages/Home";
 import Courses from "./Pages/Courses/Courses";
 import OurMission from "./Pages/OurMission";
@@ -11,6 +13,7 @@ import PythonVariables from "./Pages/Courses/Python/PythonVariables";
 function App() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />

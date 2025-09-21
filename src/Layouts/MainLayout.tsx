@@ -69,6 +69,7 @@ function MainLayout() {
       <main>
         <Outlet />
       </main>
+      <div id="post-page" />
     </>
   );
 }

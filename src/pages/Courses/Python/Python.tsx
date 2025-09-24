@@ -4,7 +4,7 @@ import "../../../Styles/Pages/Courses/Python/Python.css";
 
 const contentPages = {
   Introduction: "#/courses/python/introduction",
-  Variables: "#/courses/",
+  Variables: "#/courses/python/variables",
   "Data Types": "#/courses/",
   "Arithmetic Operators": "#/courses/",
   "Comparison Operators": "#/courses/",

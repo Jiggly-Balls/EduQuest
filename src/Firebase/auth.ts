@@ -34,11 +34,15 @@ export const doPasswordReset = (email: string) => {
 };
 
 export const doPasswordChange = (password: string) => {
-  return updatePassword(auth.currentUser, password);
+  if (auth.currentUser) {
+    return updatePassword(auth.currentUser, password);
+  }
 };
 
 export const doSendEmailVerification = () => {
-  return sendEmailVerification(auth.currentUser, {
-    url: `${window.location.origin}/home`,
-  });
+  if (auth.currentUser) {
+    return sendEmailVerification(auth.currentUser, {
+      url: `${window.location.origin}/home`,
+    });
+  }
 };

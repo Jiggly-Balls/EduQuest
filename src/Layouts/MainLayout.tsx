@@ -8,7 +8,7 @@ import "../Styles/Layouts/MainLayout.css";
 const items = [
   {
     label: "About",
-    bgColor: "#41265eff",
+    bgColor: "#212121",
     textColor: "#fff",
     links: [
       {
@@ -25,7 +25,7 @@ const items = [
   },
   {
     label: "Courses",
-    bgColor: "#41265eff",
+    bgColor: "#212121",
     textColor: "#fff",
     links: [
       {
@@ -42,7 +42,7 @@ const items = [
   },
   {
     label: "Contact",
-    bgColor: "#41265eff",
+    bgColor: "#212121",
     textColor: "#fff",
     links: [
       { label: "Email", href: "https://google.com", ariaLabel: "Email us" },
@@ -58,7 +58,7 @@ function MainLayout() {
         logo={logo}
         logoAlt="Company Logo"
         items={items}
-        baseColor="#755697ff"
+        baseColor="#ff7043"
         menuColor="#d0a4ffff"
         buttonBgColor="#000000ff"
         buttonTextColor="#fff"

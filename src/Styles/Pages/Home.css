@@ -1,13 +1,13 @@
 #root {
   margin: 0 auto;
   padding: 2rem;
-  background: linear-gradient(135deg, #c490fc 0%, #94b7f5 100%);
+  background: linear-gradient(135deg, #bdff67 0%, #76fc76 100%);
 }
 
 body {
   margin: 0;
   min-height: 100vh;
-  background: linear-gradient(135deg, #c490fc 0%, #94b7f5 100%);
+  background: linear-gradient(135deg, #bdff67 0%, #76fc76 100%);
 }
 
 .Title {
@@ -22,7 +22,7 @@ body {
   font-size: 20px;
   min-height: 30px;
   text-decoration: bold;
-  background: linear-gradient(135deg, #755697ff 0%, #617aa5ff 100%);
+  background: linear-gradient(135deg, #cfcc01 0%, #ff7043 100%);
 }
 
 .mb-0 {
@@ -34,14 +34,88 @@ body {
 }
 
 .wave {
-  background: linear-gradient(135deg, #c490fc 0%, #94b7f5 100%);
+  background: transparent;
+}
+
+#play-btn {
+  width: 180px;
+  height: 70px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  background: linear-gradient(100deg, #cfcc01 0%, #ff7043 100%);
+  border: none;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.1rem;
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 2px;
+  box-shadow: 0 8px 32px #51cf6688, 0 2px 12px #ffe06655;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  animation: bounceIn 1s cubic-bezier(0.4, 2, 0.6, 1);
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+
+#play-btn span {
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 2px 8px #fff, 0 0 8px #51cf6688;
+}
+
+#play-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 40px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+#play-btn:hover {
+  transform: scale(1.08) translateY(-4px);
+  box-shadow: 0 16px 48px #51cf66cc, 0 4px 24px #ffe06699;
+  animation: bounce 0.5s;
+}
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: scale(1.08) translateY(-4px);
+  }
+  30% {
+    transform: scale(0.95) translateY(2px);
+  }
+  60% {
+    transform: scale(1.1) translateY(-6px);
+  }
+  100% {
+    transform: scale(1.08) translateY(-4px);
+  }
 }
 
 .card {
   margin-left: 10px;
   width: 18rem;
-  background: linear-gradient(135deg, #755697ff 0%, #617aa5ff 100%);
-}
-#start-today {
-  margin-top: 50px;
+  background: linear-gradient(135deg, #fbc02d 0%, #ff7043 100%);
 }

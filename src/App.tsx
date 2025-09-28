@@ -19,9 +19,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/map" element={<Map />} />
           <Route path="/our-mission" element={<OurMission />} />
-          <Route path="/courses/python" element={<Stage1 />} />
-          <Route path="/courses/python/introduction" element={<Stage2 />} />
-          <Route path="/courses/python/variables" element={<Stage3 />} />
+          <Route path="/map/stage-1" element={<Stage1 />} />
+          <Route path="/map/stage-2" element={<Stage2 />} />
+          <Route path="/map/stage-3" element={<Stage3 />} />
         </Route>
       </Routes>
     </HashRouter>

@@ -38,23 +38,16 @@ const stages: Stage[] = [
   {
     locked: false,
     name: "Stage 4",
-    top: "80%",
-    left: "40%",
+    top: "60%",
+    left: "25%",
     url: "/map/stage-4",
   },
   {
     locked: false,
     name: "Stage 5",
-    top: "60%",
-    left: "25%",
-    url: "/map/stage-5",
-  },
-  {
-    locked: false,
-    name: "Stage 6",
     top: "20%",
     left: "30%",
-    url: "/map/stage-6",
+    url: "/map/stage-5",
   },
 ];
 

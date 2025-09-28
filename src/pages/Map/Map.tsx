@@ -1,5 +1,3 @@
-import { BiLockAlt } from "react-icons/bi";
-
 import SplitText from "../../Componenets/SplitText";
 import StageHotspot from "../../Componenets/StageHotspot";
 
@@ -78,6 +76,7 @@ function Map() {
           textAlign="center"
         />
       </h1>
+
       <div
         className="d-flex flex-row mb-3 justify-content-center"
         id="map-container"

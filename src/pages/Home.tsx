@@ -59,7 +59,7 @@ function Home() {
       <div className="d-flex flex-row mb-3 justify-content-center">
         <a
           id="play-btn"
-          href="#/courses/"
+          href="#/map/"
           type="button"
           className="btn btn-primary"
         >

@@ -5,7 +5,7 @@ import pythonLogo from "../../assets/python-logo.png";
 
 import "../../Styles/Pages/Courses/Courses.css";
 
-function Courses() {
+function Map() {
   return (
     <div>
       <h1 className="Title justify-content-center">
@@ -39,4 +39,4 @@ function Courses() {
   );
 }
 
-export default Courses;
+export default Map;

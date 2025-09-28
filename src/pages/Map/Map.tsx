@@ -22,28 +22,28 @@ const stages: Stage[] = [
     url: "/map/stage-1",
   },
   {
-    locked: false,
+    locked: true,
     name: "Stage 2",
     top: "45%",
     left: "75%",
     url: "/map/stage-2",
   },
   {
-    locked: false,
+    locked: true,
     name: "Stage 3",
     top: "35%",
     left: "50%",
     url: "/map/stage-3",
   },
   {
-    locked: false,
+    locked: true,
     name: "Stage 4",
     top: "60%",
     left: "25%",
     url: "/map/stage-4",
   },
   {
-    locked: false,
+    locked: true,
     name: "Stage 5",
     top: "20%",
     left: "30%",
@@ -82,8 +82,29 @@ function Map() {
             x={stage.left}
             y={stage.top}
             url={stage.url}
+            locked={stage.locked}
           />
         ))}
+      </div>
+
+      <div id="lockedModal" className="modal">
+        <div className="modal-content">
+          <h2>🔒 Locked!</h2>
+          <p>
+            You must complete the previous stage first to unlock this stage.
+          </p>
+          <button
+            className="close-btn"
+            onClick={() => {
+              const modal = document.getElementById("lockedModal");
+              if (modal) {
+                modal.style.display = "none";
+              }
+            }}
+          >
+            OK
+          </button>
+        </div>
       </div>
     </div>
   );

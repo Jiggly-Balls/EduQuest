@@ -2,7 +2,7 @@ import PythonCodeBlock from "../../../Componenets/CodeBlock";
 import SplitText from "../../../Componenets/SplitText";
 import VariableDragGame from "../../../Utilities/DNDGame";
 
-import "../../../Styles/Pages/Courses/Python/PythonVariables.css";
+import "../../../Styles/Pages/Map/Stages/Stage3.css";
 
 const variableExample = `age = 19
 name = "Krish"

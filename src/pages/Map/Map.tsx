@@ -1,5 +1,7 @@
 import SplitText from "../../Componenets/SplitText";
 
+import mapImage from "../../assets/map.png";
+
 import "../../Styles/Pages/Courses/Courses.css";
 
 function Map() {
@@ -20,6 +22,49 @@ function Map() {
           textAlign="center"
         />
       </h1>
+      <div id="map-container">
+        <img id="map-image" src={mapImage} alt="EduQuest World Map" />
+        <div
+          className="chapter-hotspot"
+          id="chapter1"
+          data-chapter-name="Stage 1"
+        ></div>
+        <div
+          className="chapter-hotspot"
+          id="chapter2"
+          data-chapter-name="Stage 2"
+        ></div>
+        <div
+          className="chapter-hotspot"
+          id="chapter3"
+          data-chapter-name="Stage 3"
+        ></div>
+        <div
+          className="chapter-hotspot"
+          id="chapter4"
+          data-chapter-name="Stage 4"
+        ></div>
+        <div
+          className="chapter-hotspot"
+          id="chapter5"
+          data-chapter-name="Stage 5"
+        ></div>
+        <div
+          className="chapter-hotspot"
+          id="chapter6"
+          data-chapter-name="Stage 6"
+        ></div>
+        <div
+          className="chapter-hotspot"
+          id="chapter7"
+          data-chapter-name="Stage 7"
+        ></div>
+        <div
+          className="chapter-hotspot"
+          id="chapter8"
+          data-chapter-name="Stage 8"
+        ></div>
+      </div>
     </div>
   );
 }

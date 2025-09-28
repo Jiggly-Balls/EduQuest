@@ -1,8 +1,6 @@
 import SplitText from "../../../Componenets/SplitText";
 
-import guidoVanRossum from "../../../assets/guido-van-rossum.png";
-
-import "../../../Styles/Pages/Courses/Python/PythonIntroduction.css";
+import "../../../Styles/Pages/Map/Stages/Stage2.css";
 
 function Stage2() {
   return (
@@ -37,7 +35,6 @@ function Stage2() {
             growth, ensuring that Python remains one of the most popular and
             influential programming languages in the world.
           </p>
-          <img id="guido-van-rossum-image" src={guidoVanRossum} />
         </div>
         <p className="text-center justify-content-center" id="post-para">
           <br />

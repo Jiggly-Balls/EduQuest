@@ -1,6 +1,6 @@
 import SplitText from "../../../Componenets/SplitText";
-import pythonLogo from "../../../assets/python-logo-transparent.png";
-import "../../../Styles/Pages/Courses/Python/Python.css";
+
+import "../../../Styles/Pages/Map/Stages/Stage1.css";
 
 const contentPages = {
   Introduction: "#/courses/python/introduction",
@@ -31,10 +31,6 @@ function Stage1() {
           textAlign="center"
         />
       </h1>
-
-      <div className="d-flex flex-row mb-3 justify-content-center">
-        <img id="python-logo" src={pythonLogo} alt="Python Logo" />
-      </div>
 
       <p id="introduction-para">
         <SplitText

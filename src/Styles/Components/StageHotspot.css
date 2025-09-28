@@ -24,3 +24,75 @@
   color: white;
   text-shadow: 1px 1px 3px black; /* makes it readable on map */
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(40, 60, 120, 0.18);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 24px;
+  padding: 2.5em 2.5em 2em 2.5em;
+  box-shadow: 0 8px 32px rgba(60, 60, 120, 0.18),
+    0 1.5px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  position: relative;
+  min-width: 320px;
+  max-width: 70vw;
+  animation: popin 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  backdrop-filter: blur(8px);
+}
+
+@keyframes popin {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  color: #6c47ff;
+  font-size: 2.2em;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.modal-content p {
+  font-size: 1.15em;
+  color: #444;
+  margin-bottom: 0.5em;
+}
+
+.modal-content .close-btn {
+  margin-top: 1.5em;
+  padding: 0.6em 2em;
+  background: linear-gradient(90deg, #6c47ff 0%, #8f6fff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(60, 60, 120, 0.1);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.modal-content .close-btn:hover {
+  background: linear-gradient(90deg, #8f6fff 0%, #6c47ff 100%);
+  transform: translateY(-2px) scale(1.04);
+}

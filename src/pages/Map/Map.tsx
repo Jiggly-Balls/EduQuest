@@ -2,7 +2,7 @@ import SplitText from "../../Componenets/SplitText";
 
 import mapImage from "../../assets/map.png";
 
-import "../../Styles/Pages/Courses/Courses.css";
+import "../../Styles/Pages/Map/Map.css";
 
 function Map() {
   return (
@@ -22,7 +22,10 @@ function Map() {
           textAlign="center"
         />
       </h1>
-      <div id="map-container">
+      <div
+        className="d-flex flex-row mb-3 justify-content-center"
+        id="map-container"
+      >
         <img id="map-image" src={mapImage} alt="EduQuest World Map" />
         <div
           className="chapter-hotspot"

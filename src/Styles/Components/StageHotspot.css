@@ -1,0 +1,26 @@
+.chapter-hotspot {
+  position: absolute;
+  display: flex;
+  flex-direction: column; /* lock on top, text below */
+  align-items: center;
+  cursor: pointer;
+}
+
+.hotspot-icon {
+  font-size: 28px;
+  color: #f97316; /* orange */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hotspot-icon:hover {
+  transform: scale(1.2);
+  color: yellow;
+}
+
+.hotspot-label {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 3px black; /* makes it readable on map */
+}

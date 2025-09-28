@@ -13,7 +13,7 @@ const contentPages = {
   "Membership Operators": "#/courses/",
 };
 
-function Python() {
+function Stage1() {
   return (
     <div>
       <h1 className="Title justify-content-center">
@@ -83,4 +83,4 @@ function Python() {
   );
 }
 
-export default Python;
+export default Stage1;

@@ -8,7 +8,7 @@ const variableExample = `age = 19
 name = "Krish"
 is_above_18 = True`;
 
-function PythonVariables() {
+function Stage3() {
   return (
     <div>
       <h1 className="Title justify-content-center">
@@ -107,4 +107,4 @@ function PythonVariables() {
   );
 }
 
-export default PythonVariables;
+export default Stage3;

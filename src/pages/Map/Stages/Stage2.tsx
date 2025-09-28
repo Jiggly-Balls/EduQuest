@@ -4,7 +4,7 @@ import guidoVanRossum from "../../../assets/guido-van-rossum.png";
 
 import "../../../Styles/Pages/Courses/Python/PythonIntroduction.css";
 
-function PythonIntroduction() {
+function Stage2() {
   return (
     <div>
       <h1 className="Title justify-content-center">
@@ -60,4 +60,4 @@ function PythonIntroduction() {
   );
 }
 
-export default PythonIntroduction;
+export default Stage2;

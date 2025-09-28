@@ -1,6 +1,7 @@
-#map-image {
-  width: 1190px;
-  height: 700px;
+#map-container {
+  height: 600px;
+  width: 1020px;
+  position: relative;
   border: none;
   border-radius: 24px;
   box-shadow: 0 8px 32px rgba(60, 60, 120, 0.12),

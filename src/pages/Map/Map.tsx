@@ -1,8 +1,64 @@
+import { BiLockAlt } from "react-icons/bi";
+
 import SplitText from "../../Componenets/SplitText";
+import StageHotspot from "../../Componenets/StageHotspot";
 
 import mapImage from "../../assets/map.png";
 
 import "../../Styles/Pages/Map/Map.css";
+
+type Stage = {
+  locked: boolean;
+  name: string;
+  top: string; // position relative to map
+  left: string; // position relative to map
+  url: string;
+};
+
+const stages: Stage[] = [
+  {
+    locked: false,
+    name: "Stage 1",
+    top: "83%",
+    left: "88%",
+    url: "/map/stage-1",
+  },
+  {
+    locked: false,
+    name: "Stage 2",
+    top: "45%",
+    left: "75%",
+    url: "/map/stage-2",
+  },
+  {
+    locked: false,
+    name: "Stage 3",
+    top: "35%",
+    left: "50%",
+    url: "/map/stage-3",
+  },
+  {
+    locked: false,
+    name: "Stage 4",
+    top: "80%",
+    left: "40%",
+    url: "/map/stage-4",
+  },
+  {
+    locked: false,
+    name: "Stage 5",
+    top: "60%",
+    left: "25%",
+    url: "/map/stage-5",
+  },
+  {
+    locked: false,
+    name: "Stage 6",
+    top: "20%",
+    left: "30%",
+    url: "/map/stage-6",
+  },
+];
 
 function Map() {
   return (
@@ -27,46 +83,15 @@ function Map() {
         id="map-container"
       >
         <img id="map-image" src={mapImage} alt="EduQuest World Map" />
-        <div
-          className="chapter-hotspot"
-          id="chapter1"
-          data-chapter-name="Stage 1"
-        ></div>
-        <div
-          className="chapter-hotspot"
-          id="chapter2"
-          data-chapter-name="Stage 2"
-        ></div>
-        <div
-          className="chapter-hotspot"
-          id="chapter3"
-          data-chapter-name="Stage 3"
-        ></div>
-        <div
-          className="chapter-hotspot"
-          id="chapter4"
-          data-chapter-name="Stage 4"
-        ></div>
-        <div
-          className="chapter-hotspot"
-          id="chapter5"
-          data-chapter-name="Stage 5"
-        ></div>
-        <div
-          className="chapter-hotspot"
-          id="chapter6"
-          data-chapter-name="Stage 6"
-        ></div>
-        <div
-          className="chapter-hotspot"
-          id="chapter7"
-          data-chapter-name="Stage 7"
-        ></div>
-        <div
-          className="chapter-hotspot"
-          id="chapter8"
-          data-chapter-name="Stage 8"
-        ></div>
+
+        {stages.map((stage) => (
+          <StageHotspot
+            stage={stage.name}
+            x={stage.left}
+            y={stage.top}
+            url={stage.url}
+          />
+        ))}
       </div>
     </div>
   );

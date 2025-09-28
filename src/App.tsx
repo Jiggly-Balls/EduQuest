@@ -6,9 +6,9 @@ import Home from "./Pages/Home";
 import Map from "./Pages/Map/Map";
 import OurMission from "./Pages/OurMission";
 import MainLayout from "./Layouts/MainLayout";
-import Python from "./Pages/Map/Python/Python";
-import PythonIntroduction from "./Pages/Map/Python/PythonIntroduction";
-import PythonVariables from "./Pages/Map/Python/PythonVariables";
+import Python from "./Pages/Map/Stages/Stage1";
+import PythonIntroduction from "./Pages/Map/Stages/Stage2";
+import PythonVariables from "./Pages/Map/Stages/Stage3";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
-import GenerateCard from "../Componenets/Cards";
-import SplitText from "../Componenets/SplitText";
+import GenerateCard from "../componenets/Cards";
+import SplitText from "../componenets/SplitText";
 
 import placeHolder1 from "../assets/placeholder-1.jpg";
 import placeHolder2 from "../assets/placeholder-2.jpg";

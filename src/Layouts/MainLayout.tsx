@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 
-import CardNav from "../Componenets/CardNav";
+import CardNav from "../componenets/CardNav";
 import logo from "../assets/FTF.png";
 
 import "../Styles/Layouts/MainLayout.css";

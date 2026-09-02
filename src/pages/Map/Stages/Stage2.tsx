@@ -1,4 +1,4 @@
-import SplitText from "../../../Componenets/SplitText";
+import SplitText from "../../../componenets/SplitText";
 
 import "../../../Styles/Pages/Map/Stages/Stage2.css";
 

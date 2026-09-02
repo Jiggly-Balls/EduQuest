@@ -2,13 +2,13 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 
 import ScrollToTop from "./Utilities/ScrollTop";
 
-import Home from "./Pages/Home";
-import Map from "./Pages/Map/Map";
-import OurMission from "./Pages/OurMission";
+import Home from "./pages/Home";
+import Map from "./pages/Map/Map";
+import OurMission from "./pages/OurMission";
 import MainLayout from "./Layouts/MainLayout";
-import Stage1 from "./Pages/Map/Stages/Stage1";
-import Stage2 from "./Pages/Map/Stages/Stage2";
-import Stage3 from "./Pages/Map/Stages/Stage3";
+import Stage1 from "./pages/Map/Stages/Stage1";
+import Stage2 from "./pages/Map/Stages/Stage2";
+import Stage3 from "./pages/Map/Stages/Stage3";
 
 function App() {
   return (

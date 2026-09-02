@@ -1,5 +1,5 @@
-import SplitText from "../../Componenets/SplitText";
-import StageHotspot from "../../Componenets/StageHotspot";
+import SplitText from "../../componenets/SplitText";
+import StageHotspot from "../../componenets/StageHotspot";
 
 import mapImage from "../../assets/map.png";
 

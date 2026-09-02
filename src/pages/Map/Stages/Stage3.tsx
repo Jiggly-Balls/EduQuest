@@ -1,5 +1,5 @@
-import PythonCodeBlock from "../../../Componenets/CodeBlock";
-import SplitText from "../../../Componenets/SplitText";
+import PythonCodeBlock from "../../../componenets/CodeBlock";
+import SplitText from "../../../componenets/SplitText";
 import VariableDragGame from "../../../Utilities/DNDGame";
 
 import "../../../Styles/Pages/Map/Stages/Stage3.css";

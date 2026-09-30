@@ -46,7 +46,7 @@ function Stage2() {
       <div className="d-flex flex-row mb-3 justify-content-center">
         <a
           id="next-topic"
-          href="#/courses/python/variables"
+          href="#/map/stage-3"
           type="button"
           className="btn btn-primary"
         >

@@ -22,14 +22,14 @@ const stages: Stage[] = [
     url: "/map/stage-1",
   },
   {
-    locked: true,
+    locked: false,
     name: "Stage 2",
     top: "45%",
     left: "75%",
     url: "/map/stage-2",
   },
   {
-    locked: true,
+    locked: false,
     name: "Stage 3",
     top: "35%",
     left: "50%",

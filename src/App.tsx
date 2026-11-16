@@ -9,6 +9,7 @@ import MainLayout from "./Layouts/MainLayout";
 import Stage1 from "./pages/Map/Stages/Stage1";
 import Stage2 from "./pages/Map/Stages/Stage2";
 import Stage3 from "./pages/Map/Stages/Stage3";
+import Stage4 from "./pages/Map/Stages/Stage4";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/map/stage-1" element={<Stage1 />} />
           <Route path="/map/stage-2" element={<Stage2 />} />
           <Route path="/map/stage-3" element={<Stage3 />} />
+          <Route path="/map/stage-4" element={<Stage4 />} />
         </Route>
       </Routes>
     </HashRouter>

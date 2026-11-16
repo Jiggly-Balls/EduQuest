@@ -103,6 +103,16 @@ function Stage3() {
           <VariableDragGame />
         </div>
       </div>
+      <div className="d-flex flex-row mb-3 justify-content-center">
+        <a
+          id="next-topic"
+          href="#/map/stage-4"
+          type="button"
+          className="btn btn-primary"
+        >
+          Next Topic
+        </a>
+      </div>
     </div>
   );
 }

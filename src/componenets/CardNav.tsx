@@ -1,6 +1,5 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
-import { GoArrowUpRight } from "react-icons/go";
 
 import "../Styles/Components/CardNav.css";
 
@@ -214,10 +213,9 @@ const CardNav: React.FC<CardNavProps> = ({
                     aria-label={lnk.ariaLabel}
                     onClick={() => toggleMenu()}
                   >
-                    <GoArrowUpRight
-                      className="nav-card-link-icon"
-                      aria-hidden="true"
-                    />
+                    <span className="nav-card-link-icon" aria-hidden="true">
+                      ↗
+                    </span>
                     {lnk.label}
                   </a>
                 ))}

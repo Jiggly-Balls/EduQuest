@@ -1,4 +1,3 @@
-import { BiLockAlt, BiPlay } from "react-icons/bi";
 import { useNavigate } from "react-router-dom";
 
 import "../Styles/Components/StageHotspot.css";
@@ -25,7 +24,7 @@ function StageHotspot({
       data-chapter-name={stage}
     >
       {locked ? (
-        <BiLockAlt
+        <span
           className="hotspot-icon"
           onClick={() => {
             const modal = document.getElementById("lockedModal");
@@ -33,9 +32,33 @@ function StageHotspot({
               modal.style.display = "flex";
             }
           }}
-        />
+          role="button"
+          tabIndex={0}
+          onKeyDown={(event) => {
+            if (event.key === "Enter" || event.key === " ") {
+              const modal = document.getElementById("lockedModal");
+              if (modal) {
+                modal.style.display = "flex";
+              }
+            }
+          }}
+        >
+          🔒
+        </span>
       ) : (
-        <BiPlay className="hotspot-icon" onClick={() => navigate(url)} />
+        <span
+          className="hotspot-icon"
+          onClick={() => navigate(url)}
+          role="button"
+          tabIndex={0}
+          onKeyDown={(event) => {
+            if (event.key === "Enter" || event.key === " ") {
+              navigate(url);
+            }
+          }}
+        >
+          ▶
+        </span>
       )}
 
       <span className="hotspot-label">{stage}</span>

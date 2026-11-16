@@ -300,8 +300,8 @@ function Stage4() {
       </div>
 
       <div className="d-flex flex-row mb-3 justify-content-center">
-        <a href="#/map" className="btn btn-primary" id="next-topic">
-          Back to Map
+        <a href="#/map/stage-5" className="btn btn-primary" id="next-topic">
+          Next Topic
         </a>
       </div>
     </div>

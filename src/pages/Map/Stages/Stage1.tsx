@@ -3,14 +3,10 @@ import SplitText from "../../../componenets/SplitText";
 import "../../../Styles/Pages/Map/Stages/Stage1.css";
 
 const contentPages = {
-  Introduction: "#/map/stage-2",
-  Variables: "#/map/stage-3",
+  "Introduction": "#/map/stage-2",
+  "Variables": "#/map/stage-3",
   "Data Types": "#/map/stage-4",
   "Arithmetic Operators": "#/map/stage-5",
-  "Comparison Operators": "#/map/stage-6",
-  "Logical Operators": "#/map/stage-7",
-  "Identity Operators": "#/map/stage-8",
-  "Membership Operators": "#/map/stage-9",
 };
 
 function Stage1() {
